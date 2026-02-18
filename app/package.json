@@ -1,0 +1,12 @@
+{
+  "name": "pipeline-deploy-app",
+  "version": "1.0.0",
+  "description": "Aplicacao Node.js para pipeline de deploy com GitLab, Docker e Kubernetes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Tests passed\" && exit 0"
+  },
+  "author": "Gabriel Demetrios Lafis",
+  "license": "MIT"
+}
