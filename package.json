@@ -2,10 +2,10 @@
   "name": "gitlab-docker-kubernetes-pipeline",
   "version": "1.0.0",
   "description": "> **[PT-BR]** Pipeline de deploy automatizado com GitLab CI/CD, Docker e Kubernetes (GKE).",
-  "main": "index.js",
+  "main": "app/server.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node --watch index.js"
+    "start": "node app/server.js",
+    "dev": "node --watch app/server.js"
   },
   "license": "MIT"
 }
